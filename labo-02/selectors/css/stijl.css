@@ -31,10 +31,14 @@ footer p{
  }
 /* 4. de paragraaf die onmiddellijk na elke h2 komt -> font-style: italic; */
 
-
+.uren li:nth-child(odd){
+background-color:#f1e9dc ;
+}
 /* 5. elk oneven item in de lijst met openingsuren -> background-color: #f1e9dc; */
 
-
+.uren li:nth-child(7){
+color: crimson;
+}
 /* 6. het laatste item in de lijst met openingsuren -> color: crimson; */
 
 
