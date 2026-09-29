@@ -8,7 +8,7 @@ body {
   font-family: Verdana, sans-serif;
   line-height: 1.6;
 }
-.nav ul li a {
+nav ul li a {
  color: crimson;
 }
 /* 1. alle links in de navigatie -> color: crimson; */
