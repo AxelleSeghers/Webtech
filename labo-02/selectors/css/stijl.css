@@ -41,10 +41,13 @@ color: crimson;
 }
 /* 6. het laatste item in de lijst met openingsuren -> color: crimson; */
 
-
+.slogan, .intro{color:darkslateblue;}
 /* 7. de slogan en de intro tegelijk, in één regel -> color: darkslateblue; */
 
-
+main a:hover,
+main a:focus {
+background-color: yellow;
+}
 /* 8. elke link in main wanneer de muis erover gaat OF wanneer ze focus heeft
       -> background-color: yellow; */
 
