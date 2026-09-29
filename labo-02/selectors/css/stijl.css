@@ -56,8 +56,8 @@ background-color: yellow;
 /* ---- Lezen: welke elementen raken deze vijf selectors? Schrijf het antwoord
    in één zin per selector in README.md. Verander hier niets. ---- */
 
-/* a. header nav ul li a */
-/* b. article > p */
-/* c. .uren li:nth-child(3) */
-/* d. h2 ~ p */
-/* e. .rassen li:first-child */
+/* a. header nav ul li a -> navigatie links*/
+/* b. article > p -> in de article de eerste paragraaf/
+/* c. .uren li:nth-child(3) -> de eerste punjte in de lijsts*/
+/* d. h2 ~ p  de eerste paragraven na h2*/
+/* e. .rassen li:first-child  het eerste kind bij de class ras*/
