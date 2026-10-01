@@ -1,33 +1,33 @@
 # Labo 2 - reflecties
 
-Naam: (jouw naam)
+Naam: Axelle Seghers
 
 ## 2. Selectors lezen
 
 Welke elementen raakt elke selector? Eén zin per selector.
 
-- a. `header nav ul li a`: 
-- b. `article > p`: 
-- c. `.uren li:nth-child(3)`: 
-- d. `h2 ~ p`: 
-- e. `.rassen li:first-child`: 
+- a. `header nav ul li a`: Selecteert alle <a>-links die zich binnen een <li>, binnen een <ul>, binnen een <nav>, binnen een <header> bevinde
+- b. `article > p`: alle <p>-elementen die rechtstreeks een kind zijn van <article>.
+- c. `.uren li:nth-child(3)`:et derde <li>-element binnen een element met de class .uren.
+- d. `h2 ~ p`:alle <p>-elementen die na een <h2> staan en dezelfde ouder hebben.
+- e. `.rassen li:first-child`: het eerste <li>-element binnen een element met de class .rassen.
 
 ## 3. Voorspel, dan kijk
 
 Vul de eerste twee kolommen in vóór je de pagina opent. Trede: herkomst, specificiteit, volgorde of overerving (of iets anders, benoem het).
 
 | vraag | mijn voorspelling (kleur) | beslissende trede | uitkomst in de browser | juist? |
-|---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
-| 9 | | | | |
-| 10 | | | | |
+| ----- | ------------------------- | ----------------- | ---------------------- | ------ |
+| 1     | Groen                     | <a>               | groen                  | JA     |
+| 2     | Blauw volgorde            |                   |                        |
+| 3     | rood spec                 |                   |                        |
+| 4     | rood                      | spec              |                        |
+| 5     | blauw                     | over              |                        |        |
+| 6     | niks                      | fout              |                        |        |
+| 7     | rood                      | over              |                        |        |
+| 8     | blauw                     | volg              |                        |        |
+| 9     | rood                      | spec              |                        |        |
+| 10    | blauw                     | volg              |                        |        |
 
 Bij welke vraag zat je fout, en wat was de reden? (Alles juist? Welke vraag duurde het langst, en waarom?)
 
@@ -45,8 +45,8 @@ Bij welke vraag zat je fout, en wat was de reden? (Alles juist? Welke vraag duur
 
 Prompt en onbewerkte output staan in `review/`. Minstens vijf bevindingen, elk met een verwijzing naar de sectie of het foutnummer:
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1.
+2.
+3.
+4.
+5.
