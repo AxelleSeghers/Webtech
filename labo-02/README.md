@@ -19,17 +19,18 @@ Vul de eerste twee kolommen in vóór je de pagina opent. Trede: herkomst, speci
 | vraag | mijn voorspelling (kleur) | beslissende trede | uitkomst in de browser | juist? |
 | ----- | ------------------------- | ----------------- | ---------------------- | ------ |
 | 1     | Groen                     | <a>               | groen                  | JA     |
-| 2     | Blauw volgorde            |                   |                        |
-| 3     | rood spec                 |                   |                        |
-| 4     | rood                      | spec              |                        |
-| 5     | blauw                     | over              |                        |        |
-| 6     | niks                      | fout              |                        |        |
-| 7     | rood                      | over              |                        |        |
-| 8     | blauw                     | volg              |                        |        |
-| 9     | rood                      | spec              |                        |        |
-| 10    | blauw                     | volg              |                        |        |
+| 2     | Blauw volgorde            |                   | blauw                  | JA     |
+| 3     | rood spec                 |                   | rood                   | JA     |
+| 4     | rood                      | spec              | rood                   | JA     |
+| 5     | blauw                     | over              | blauw                  | JA     |
+| 6     | blauw                     | fout              | blauw                  | JA     |
+| 7     | rood                      | over              | Rood                   | JA     |
+| 8     | blauw                     | volg              | Blauw                  | JA     |
+| 9     | rood                      | spec              | rood                   | JA     |
+| 10    | blauw                     | volg              | blauw                  | JA     |
 
 Bij welke vraag zat je fout, en wat was de reden? (Alles juist? Welke vraag duurde het langst, en waarom?)
+bij regel 6 omdat ik eerst verkeerd aan het kijken was
 
 ## 4. De nabouw
 
