@@ -64,5 +64,5 @@ footer a{
 }
 footer a:hover,
 footer a:focus {
-  color: var(--accent-color);
+  color: var(--color-accent);
 }
