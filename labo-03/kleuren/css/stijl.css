@@ -13,9 +13,7 @@
 }
 body{
     text-align: center;
-    
-    font-family: var(--font-family-arial);
-     
+    font-family: var(--font-family-arial); 
 }
 body h2{
     letter-spacing: 0.25rem;
@@ -36,17 +34,17 @@ body h2{
  }
  .coral{
    height: 50vh;
-  width: 100%;
+   width: 100%;
   padding: 50Vh;
-  background-color: var(--background-color-coral);
+   background-color: var(--background-color-coral);
   color:var(--font-color-white) ;
  }
  .lightsalmon{
    height: 50vh;
-  width: 100%;
-  padding: 50vh;
-  background-color: var(--background-color-lightsalmon);
-  color:var(--font-color-white) ;
+   width: 100%;
+   padding: 50vh;
+   background-color: var(--background-color-lightsalmon);
+   color:var(--font-color-white) ;
  }
  .darkorange{
   height: 50vh;
