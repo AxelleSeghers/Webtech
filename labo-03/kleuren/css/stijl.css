@@ -16,7 +16,10 @@ body{
     font-family: var(--font-family-arial); 
 }
 body h2{
+  display: flex;
     letter-spacing: 0.25rem;
+    justify-content: center;
+    
  }
 .tomato{
   height: 50vh;
@@ -53,13 +56,19 @@ body h2{
   background-color: var(--background-color-darkorange);
   color:var(--font-color-white) ;
  }
-.codes span{
-  margin-left:1rem;
-  font-size: 0.80rem;
+ .codes {
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  
 }
- ul {
+.codes span{
+  font-size: 0.80rem;
+  
+}
+ul{
    list-style-type: none; 
    padding: 0;
    margin: 0;
- }
+}
 
