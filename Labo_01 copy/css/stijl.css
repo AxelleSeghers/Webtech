@@ -1,8 +1,8 @@
 :root{
     --color-papier:#fbf7f0 ;
-    --color-inkt: #2b2b2b;
+    --color-inkt: #472f07;
     --color-gedempt:#6b6b6b;
-    --color-accent: #fba383;
+    --color-accent: #b5451b;
     --color-zebra: #f1e9dc;
     --fontsize-tekst : 1rem;
     --fontfamily-ver: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,6 +11,24 @@
 body {
  background-color: var(--color-papier);
  font-family: var(--fontfamily-ver);
+ line-height: 1.6;
  
 }
+body h1{
+    color: var(--color-accent);
+}
+
+body nav ul li a{
+
+    color: var(--color-accent);
+    font-weight: 600;
+    text-decoration: none;
+}
+nav a:hover,
+nav a:focus {
+  color: var(--color-inkt); 
+  text-decoration: underline wavy var(--color-inkt) 2px;
+}
+
+
 
