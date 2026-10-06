@@ -1,6 +1,6 @@
 # Labo 3 - reflecties
 
-Naam: (jouw naam)
+Naam: Axelle Seghers
 
 ## 1. Kleurenstalen
 
@@ -30,6 +30,6 @@ Naam: (jouw naam)
 
 Welke route koos je? Bij de AI-route: prompt en onbewerkte output staan in `site/review/`, en dit corrigeerde ik (met verwijzing naar de sectie of het foutnummer):
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
