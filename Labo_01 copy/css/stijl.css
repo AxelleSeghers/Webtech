@@ -10,5 +10,7 @@
 }
 body {
  background-color: var(--color-papier);
+ font-family: var(--fontfamily-ver);
+ 
 }
 
