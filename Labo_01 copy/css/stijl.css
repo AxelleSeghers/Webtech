@@ -4,5 +4,11 @@
     --color-gedempt:#6b6b6b;
     --color-accent: #fba383;
     --color-zebra: #f1e9dc;
-    --fontsize : 1rem;
+    --fontsize-tekst : 1rem;
+    --fontfamily-ver: Verdana, Geneva, Tahoma, sans-serif;
+
 }
+body {
+ background-color: var(--color-papier);
+}
+
