@@ -2,7 +2,12 @@
 
 /* === tokens === */
 :root {
-
+    --tekstkleur :#282827;
+    --geelkleur : #fccc00;
+    --fontfamily : arial;
+}
+body{
+    text-align: center;
 }
 
 /* === your rules === */
