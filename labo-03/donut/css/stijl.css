@@ -9,9 +9,36 @@
  
 }
 main{
+    display: block;
+    margin: 5vh auto;
     height: 90vh;
     width: 90vh;
     border: 0.75rem solid black;
+    background-color: var(--kleuroranje);
+}
+div{
+    width: 70%;
+    height: 70%;
+    margin: 15%;
+    border: 0.75rem solid black;
+    border-radius: 50%;
+    background-color: var(--kleurpaars);
+     overflow: hidden;
+}
+h1{
+    width: 90%;
+    height: 90%;
+    border: 0.75rem solid black;
+    background-color: var(--kleurgeel);
+    margin: -7% 0 0 -7%;
+    font-weight: bold;
+    font-size: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-/* === your rules === */
+/* === your rules ===
+ */
