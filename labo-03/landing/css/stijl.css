@@ -2,7 +2,58 @@
 
 /* === tokens === */
 :root {
+--kleurbanner: #c8b8ff;
+--kleurlink: #5551ff;
+--kleurhero:#779cee;
+--fontfamily:arial,sans-serif;
 
+}
+body{
+    font-family: var(--fontfamily);
+}
+div.banner{
+    background:var(--kleurbanner);
+    height: 5vh;
+    margin: auto;
+    text-align: center;
+    
+}
+div.banner p {
+    padding: 1.3vh;
+}
+header{
+    width: 100%;
+    height: 7vh;
+    text-align: right;
+}
+header nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1.5rem;
+    margin: 1rem;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+main{
+    background-color: var(--kleurhero);
+    display: inline-block;
+}
+article{
+    display: inline-block;
+    text-align: left;
+    width: 100vh;
+    height: 100vh;
+    vertical-align: middle;
+
+}
+div.afbeelding{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+    height: 70%;
 }
 
 /* === your rules === */
