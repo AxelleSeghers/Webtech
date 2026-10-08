@@ -18,20 +18,25 @@ body{
 }
 body h2{
     font-size: 4rem;
-    margin: 1rem;
+    margin: 2rem;
 
-}
-span{
-    display: inline-block;
-    border-bottom: 7px solid var(--geelkleur);
-     border-radius: 50%;
-    padding-bottom: 5px;
-    
 }
 body p{
-    margin: 1rem;
+    color: var(--tekstkleur);
 }
-body a{
+span{
+    border-bottom: 12px solid var(--geelkleur);
+     border-radius: 50%;
+    padding-bottom: 5px;
+}
 
+body a{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1Rem;
+    border-radius: 4rem;
+    color:white;
+    background-color: black; 
+    text-decoration: none;   
 }
 /* === your rules === */
