@@ -4,10 +4,34 @@
 :root {
     --tekstkleur :#282827;
     --geelkleur : #fccc00;
-    --fontfamily : arial;
-}
-body{
-    text-align: center;
+    --fontfamily : arial,sans-serif;
 }
 
+body{
+    font-family: var(--fontfamily);
+    max-width: 40rem;
+    margin: 1rem auto;
+    display: Block;
+    padding-top: 12vh;
+    text-align: center;
+    
+}
+body h2{
+    font-size: 4rem;
+    margin: 1rem;
+
+}
+span{
+    display: inline-block;
+    border-bottom: 7px solid var(--geelkleur);
+     border-radius: 50%;
+    padding-bottom: 5px;
+    
+}
+body p{
+    margin: 1rem;
+}
+body a{
+
+}
 /* === your rules === */
