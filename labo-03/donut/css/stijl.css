@@ -2,7 +2,16 @@
 
 /* === tokens === */
 :root {
-
+ --kleuroranje: #ec4b03;
+ --kleurpaars: #b99ec1;
+ --kleurgeel:#f9b700;
+ --fontfamily: georgia, sans-sarif serif;
+ 
+}
+main{
+    height: 90vh;
+    width: 90vh;
+    border: 0.75rem solid black;
 }
 
 /* === your rules === */
