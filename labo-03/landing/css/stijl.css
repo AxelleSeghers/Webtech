@@ -37,6 +37,14 @@ header nav ul li a {
     color: black;
     vertical-align: middle;
 }
+header nav ul li a:hover {
+    color: orange;
+    text-decoration: solid black;
+}
+
+header nav ul li a:active {
+    color: var(--kleurbanner);
+}
 main{
     background-color: var(--kleurhero);
     height: 90%;
@@ -53,17 +61,33 @@ article h1,
 article a,
 article p{
     display: block;
-    width: 50%;
+    width: 60%;
     margin-left: 5vh;
     margin-bottom: 3vh;
+     line-height: 2rem;
+}
+article h1{
+    font-size:3rem;
+    line-height: 3.5rem;
+    width: 70%;
 }
 .knop{
-    padding: 2vh;
+    padding: 1vh;
     background-color: black;
     text-decoration: none;
     width: 15%;
     border-radius: 2vh;
     color: white;
+    text-align: center;
+}
+.knop:hover {
+    background-color: orange;
+    color: black;
+}
+
+.knop:active {
+    background-color: peru;
+    color: black;
 }
 img{
     display: block;
