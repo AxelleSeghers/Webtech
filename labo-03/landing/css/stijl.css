@@ -43,7 +43,10 @@ main{
 }
 article{
     display: inline-block;
+    vertical-align: top;
     width: 50%;
+    height: 90%;
+    margin-top: 5vh;
 }
 article .bovenkop,
 article h1,
