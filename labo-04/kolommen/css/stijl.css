@@ -2,7 +2,40 @@
 
 /* === tokens === */
 :root {
+   --backgroundcollorcoll1: darkturquoise;
+   --backgroundcollorcoll2: darkviolet;
+   --backgroundcollorcoll3: deepskyblue;
+    --font-familyarial:arial ;
+}
+main{
+    display: flex;
+    margin:10vh 4vw;
+    font-size: 3rem;
+    font-family: var(--font-familyarial);
+    color: white;
+    font-weight: bold;
+    gap:4vw;
+    height: 80vh;
+}
+main div{
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backgroundcollorcoll1);
+   
+}
+main div:nth-child(2) {
+    flex:2;
+    background-color: var(--backgroundcollorcoll2);
 
 }
+main div:nth-child(3) {
+    flex:1;
+    background-color: var(--backgroundcollorcoll3);
+   
+}
+
 
 /* === your rules === */
