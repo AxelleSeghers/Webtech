@@ -37,7 +37,7 @@ nav ul li{
 nav ul li a{
    color: #f3efe6;
     text-decoration: none;
-    padding: 0.75rem 1.15rem;
+    padding: 0.75rem 1.15rem; 
     border-radius: 0.5rem;
     
 }
@@ -46,9 +46,4 @@ nav ul li a:hover {
     background-color: #e6b53c;  
 }
 
-
-nav ul li a:active {
-    color: white;
-
-}
 /* === your rules === */
