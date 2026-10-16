@@ -11,6 +11,7 @@
     --backgroundrood:#cd2424;
 }
 body{
+    display: flex;
    justify-content: center;
 }
 .schilderij{ 
