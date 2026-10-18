@@ -2,7 +2,59 @@
 
 /* === tokens === */
 :root {
-
+--backgroundcolorblue: #1446a0;
+--backgroundcolorred: #db3069;
+--backgroundcoloryellow:#f5d547;
+--backgroundcolorwhite: #ebebd3;
+--fontcolorlast:#2b2b2b;
+--fontfamilyarial: Arial;
+}
+.trap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 100vh;
+    font-family: var(--fontfamilyarial);
+    font-size: 3rem;
+}
+.trede:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: var(--backgroundcolorblue);
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+.trede:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: var(--backgroundcolorred);
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+.trede:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 3;
+    grid-row: 3;
+    background-color: var(--backgroundcoloryellow);
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+.trede:nth-child(4){
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 4;
+    grid-row: 4;
+    background-color: var(--backgroundcolorwhite);
+    color:var(--fontcolorlast);
+    justify-content: center;
+    align-content: center;
 }
 
-/* === your rules === */
