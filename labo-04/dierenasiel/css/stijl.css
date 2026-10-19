@@ -2,7 +2,61 @@
 
 /* === tokens === */
 :root {
+--backgroudcolorpapier:#f7f4ec;
+--colorinkt:#2b2b2b;
+--colorgedempt:#6b6b6b ;
+--colorbalkenknop:#1f3a2e;
+--coloraccent:#e6b53c;
+--fontfamilTekstyVerdana:Verdana;
+--fontfamilykoppen:Georgia;
 
 }
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--colorbalkenknop);
+    font-family: var(--fontfamilTekstyVerdana);
+}
+.logo{
+    color: var(--coloraccent);
+    text-decoration: none;
+}
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: right;
 
+}
+nav ul{
+    display: flex;
+    gap: 0.5rem;
+}
+nav ul li{
+   display: inline-flex;
+    text-decoration: none;
+    
+}
+nav ul li a{
+   color: var(--backgroudcolorpapier);
+    text-decoration: none;
+    padding: 0.75rem 1.15rem; 
+    border-radius: 0.5rem;
+    
+}
+nav ul li a:hover {
+    color: var(--colorbalkenknop);
+    background-color: var(--coloraccent);  
+}
+main{
+    background-color: var(--backgroudcolorpapier);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--colorbalkenknop);
+    color:var(--backgroudcolorpapier);
+    padding:3vh;
+}
 /* === your rules === */
