@@ -22,6 +22,7 @@ header{
 .logo{
     color: var(--coloraccent);
     text-decoration: none;
+    font-size: 1.5rem;
 }
 nav{
     width: 100vw;
@@ -49,8 +50,54 @@ nav ul li a:hover {
     color: var(--colorbalkenknop);
     background-color: var(--coloraccent);  
 }
-main{
+body{
     background-color: var(--backgroudcolorpapier);
+}
+main{
+    height: 90vh;
+    width: 60rem;
+    margin:0  auto;
+    line-height: 1.6rem;
+    margin-top: 5vh;
+}
+main p{
+    font-family:var(--fontfamilTekstyVerdana);
+    margin-bottom: 1rem;
+}
+main h1,h2,h3{
+    margin-bottom:1rem;
+    font-family:var(--fontfamilykoppen);
+}
+.kaarten{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 60rem;
+    list-style: none;
+    padding: 0;
+    gap: 1.5rem;
+}
+.kaartuitgelicht{
+     grid-column: 1/3;
+     background-color: white;
+     padding: 1.5rem;
+     border-radius: 0.5rem;
+     border: 1px solid #ddd;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.knop{
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: var(--colorbalkenknop);
+    color: white;
+    text-decoration: none;
+}
+.kaart{
+     background-color: white;
+     padding: 1.5rem;
+     border-radius: 0.5rem;
+     border: 1px solid #ddd;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 footer{
     display: flex;
