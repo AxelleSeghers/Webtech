@@ -2,7 +2,17 @@
 
 /* === tokens === */
 :root {
-
+    --papier:#f8f7f5;
+    --inkt:#1a1a1a ;
+    --gedempt:#6b6b6b;
+    --balk:#000000 ;
+    --fonttekst:Verdana;
+    --fontkop:georgia;
+    --links:#9a9a9a;
+    --activelink:#ffffff;
+}
+header{
+    display: flex;
 }
 
 /* === your rules === */
