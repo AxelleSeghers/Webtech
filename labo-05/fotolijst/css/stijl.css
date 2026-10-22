@@ -2,7 +2,28 @@
 
 /* === tokens === */
 :root {
+ --pagina: #111111;
+ --tekst:#f3efe6;
 
+}
+body{
+    background-color: var(--pagina);
+}
+.lijst{
+    padding: 4rem 0 4rem 0;
+}
+img{
+    display: block;
+    width: 36rem;
+    height: 37rem;
+     margin: auto;
+}
+figcaption{
+    color: var(--tekst);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.875rem;
+    margin-top: 1rem;
 }
 
 /* === your rules === */

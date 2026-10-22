@@ -2,7 +2,102 @@
 
 /* === tokens === */
 :root {
+    --backgroundcolorblue:#1e5bd8;
+    --backgroundcolorroze:#e88bb4;
+    --backgroundcolorrood:#c51f2a;
+    --backgroundcolororanje:#d98c1a;
+    --backgroundcolorgroen:#3b7a2a;
+    --backgroundcolorsalie:#8fb89a;
+    --backgroundcolorpaars:#7b4fa3 ;
+    --backgroundcolorgrijs:#6b6b6b;
+    --fontVerdana: Verdana;
+}
+body{
+    font-family: var(--fontVerdana);
+    line-height: 1.5rem;
+}
+cite{
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+}
+p{
+    padding: 0.5rem 1rem;
+}
+.citaten{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   padding: 1.5rem;
+}
+.blauw{
+    font-weight: bold;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 18rem;
+    color: var(--backgroundcolorblue);
+    border-left:solid 0.5rem var(--backgroundcolorblue);
+}
+.roze{
+    font-weight: bold;
+    flex-grow: 1 ;
+    flex-shrink: 1;
+    flex-basis: 18rem;
+    color: var(--backgroundcolorroze);
+    border-left:solid 0.5rem var(--backgroundcolorroze);
+}
+
+.rood{
+    font-weight: bold;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 18rem;
+    color: var(--backgroundcolorrood);
+     border-left:solid 0.5rem var(--backgroundcolorrood);
+}
+
+.oranje{
+    font-weight: bold;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 18rem;
+    color: var(--backgroundcolororanje);
+     border-left:solid 0.5rem var(--backgroundcolororanje);
+}
+
+.groen{
+    font-weight: bold;
+    flex-grow: 1 ;
+    flex-shrink: 1;
+    flex-basis: 18rem;
+    color: var(--backgroundcolorgroen);
+     border-left:solid 0.5rem var(--backgroundcolorgroen);
+}
+.salie{
+    font-weight: bold;
+    flex-grow: 1 ;
+    flex-shrink: 1;
+    flex-basis: 18rem;
+    color: var(--backgroundcolorsalie);
+     border-left:solid 0.5rem var(--backgroundcolorsalie);
 
 }
+.paars{
+    font-weight: bold;
+    flex-grow: 1 ;
+    flex-shrink: 1;
+    flex-basis: 18rem;
+    color: var(--backgroundcolorpaars);
+     border-left:solid 0.5rem var(--backgroundcolorpaars);
+
+}
+.grijs{
+    font-weight: bold;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 18rem;
+    color: var(--backgroundcolorgrijs);
+     border-left:solid 0.5rem var(--backgroundcolorgrijs);
+}
+
 
 /* === your rules === */
