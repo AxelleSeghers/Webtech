@@ -11,6 +11,7 @@ body{
 }
 .lijst{
     padding: 4rem 0 4rem 0;
+    position: relative;
 }
 img{
     display: block;
@@ -24,6 +25,39 @@ figcaption{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.875rem;
     margin-top: 1rem;
+}
+
+.roze{
+    position: absolute;
+    background-color: pink;
+    width: 6rem;
+    height: 6rem;
+     top: 10rem;
+    left: calc(50% - 13.5rem);
+}
+.groen{
+    position: absolute;
+    background-color: forestgreen;
+    width: 6rem;
+    height: 6rem;
+    top: 7rem;
+    left: calc(50% - 15.2rem);
+}
+.rood{
+    position: absolute;
+    background-color: red;
+    width: 6rem;
+    height: 6rem;
+    bottom: 7rem;
+    right: calc(50% - 15.2rem);
+}
+.lime{
+    position: absolute;
+    background-color: lightgreen;
+    width: 6rem;
+    height: 6rem;
+    bottom: 10rem;
+    right: calc(55% - 17rem);
 }
 
 /* === your rules === */
