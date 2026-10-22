@@ -2,7 +2,42 @@
 
 /* === tokens === */
 :root {
+    --backgroundcolora:#e9493f;
+    --backgroundcolorb:#edd24a;
+    --backgroundcolorc:#072f55 ;
+    --backgroundcolord:#52a51a;
+    --backgroundcolore:#efaad9;
+    --backgroundcolorf:#a5f129;
+    --backgroundcolorg:#ebc47a;
+    --backgroundcolorh:#e8882c;
+    --fontArial: arial;
+}
+body{
+    font-family: var(--fontArial);
+    color: white;
+    font-size: 1.5rem;
+}
+main{
+display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(3,1fr);
+    grid-template-areas:
+    "a . . b"
+    "c d e f"
+    "g . . h";
+    height: 100vh;
+    padding: 1rem;
+    gap: 1rem;
 
 }
+.a { grid-area: a; background-color: var(--backgroundcolora); text-align: right; padding: 0.75rem; padding: 0.5rem;}
+.b { grid-area: b; background-color: var(--backgroundcolorb);text-align: right;padding: 0.75rem; padding: 0.5rem;}
+.c { grid-area: c; background-color: var(--backgroundcolorc);text-align: right;padding: 0.75rem; padding: 0.5rem;}
+.d { grid-area: d;background-color: var(--backgroundcolord);text-align: right; padding: 0.75rem; padding: 0.5rem;}
+.e { grid-area: e; background-color: var(--backgroundcolore);text-align: right;padding: 0.75rem; padding: 0.5rem;}
+.f { grid-area: f; background-color: var(--backgroundcolorf);text-align: right;padding: 0.75rem; padding: 0.5rem;}
+.g { grid-area: g; background-color: var(--backgroundcolorg);text-align: right;padding: 0.75rem; padding: 0.5rem;}
+.h { grid-area: h; background-color: var(--backgroundcolorh);text-align: right;padding: 0.75rem; padding: 0.5rem;}
+
 
 /* === your rules === */
