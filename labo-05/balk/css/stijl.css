@@ -11,8 +11,73 @@
     --links:#9a9a9a;
     --activelink:#ffffff;
 }
+body{
+    background-color: var(--papier);
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height:1.6;
+}
+h1,h2{
+    font-family: var(--fontkop);
+    padding-top: 3rem;
+}
 header{
     display: flex;
+    width: 100vw;
+    height: 3.5rem;
+    background-color: var(--balk);
+    font-family: var(--fontkop);
+    position: sticky;
+    top:0;
 }
+nav{
+    margin-left: auto;
+}
+nav ul li{
+    display: inline-block;
+    align-content: end;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--links);
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+     text-transform: uppercase;
+}
+.actief{
+    color: var(--activelink);
+}
+.logo{
+    align-self: center;
+    text-decoration: none;
+    padding-left: 2rem;
+    color: var(--activelink);
+    font-size: 2rem;
+}
+main{
+    display: block;
+    width: 44rem;
+    align-items: center;
+    margin: auto;
+}
+.intro{
+    color: var(--gedempt);
+}
+main ol li a{
+    color: var(--inkt);
+    
+}
+main ol li{
+    padding-top: 0.875rem;
+    
+}
+footer{
+    padding-top: 3rem;
+    text-align: center;
+}
+
 
 /* === your rules === */
