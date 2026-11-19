@@ -78,3 +78,6 @@ display: grid;
      color: var(--color-paper);
 }
 /* === the ten steps: one rule per step === */
+/*.trede:nth-child(n+6){
+ color: var(--color-paper);
+} -> dit is om automatiach de kleur vanaf child 6 de kleur te veranderen*/
